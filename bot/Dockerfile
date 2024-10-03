@@ -16,5 +16,5 @@ RUN playwright install chromium --with-deps
 
 EXPOSE 8080
 # Run your Python script
-#CMD ["python", "main.py"]
-CMD gunicorn app:app & python3 main.py
+CMD ["python", "main.py"]
+#CMD gunicorn app:app & python3 main.py
