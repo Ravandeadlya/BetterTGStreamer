@@ -14,12 +14,12 @@ UPLOADER_BOTS_1 = ["bot_token1", "bot_token2", "bot_token3"]
 UPLOADER_BOTS_2 = ["bot_token4", "bot_token5", "bot_token6"]
 
 # Telegram Channel ID where videos will be stored
-VIDEO_STORAGE = -1001234567890
+VIDEO_STORAGE = -1002260106967
 # Telegram Channel ID where logs will be stored
-LOGGER_CHANNEL = -1001234567890
+LOGGER_CHANNEL = -1002288562750
 # Telegram Channel ID where m3u8 file will be stored
-STORAGE_CHANNEL_1 = -1001234567890
-STORAGE_CHANNEL_2 = -1001234567890
+STORAGE_CHANNEL_1 = -1002368532400
+STORAGE_CHANNEL_2 = -1002312781396
 
 # Max no. of tasks to run simultaneously
 MAX_ACTIVE_TASKS = 5
@@ -34,7 +34,7 @@ NO_OF_UPLOADERS = 5
 SEGMENT_SIZE = 2
 
 # Telegram User ID of the bot owner
-OWNER_ID = 1234567890
+OWNER_ID = 7490598583
 
 # Domain name of the website where the stream api is hosted
 WEBSITE_DOMAIN = "https://stream.mywebsite.com"
