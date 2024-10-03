@@ -14,7 +14,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 RUN playwright install chromium --with-deps
 
-EXPOSE 8080
+EXPOSE 8000
 # Run your Python script
 #CMD ["python", "main.py"]
 CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
